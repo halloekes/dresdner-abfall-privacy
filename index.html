@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Datenschutzerklaerung / Privacy Policy - Dresdner Abfall</title>
+  <title>Datenschutzerklärung / Privacy Policy – Abfall Kalender</title>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 720px; margin: 48px auto; padding: 0 24px; color: #1c1c1e; line-height: 1.7; }
     h1 { font-size: 1.8rem; margin-bottom: 0.25em; }
-    h2 { font-size: 1.1rem; margin-top: 2em; }
+    h2 { font-size: 1.1rem; margin-top: 2em; color: #1c1c1e; }
     p, li { font-size: 0.97rem; color: #3a3a3c; }
     ul { padding-left: 1.4em; }
     a { color: #007aff; }
@@ -18,63 +18,139 @@
 </head>
 <body>
   <span class="lang">Deutsch</span>
-  <h1>Datenschutzerklaerung</h1>
-  <p class="updated">Dresdner Abfall App - Stand: Maerz 2026</p>
-  <h2>1. Ueberblick</h2>
-  <p>Diese App zeigt Abfuhrtermine der Landeshauptstadt Dresden an und erinnert per Benachrichtigung daran.</p>
+  <h1>Datenschutzerklärung</h1>
+  <p class="updated">Abfall Kalender App &middot; Stand: März 2026</p>
+
+  <h2>1. Überblick</h2>
+  <p>Diese App zeigt Müllabfuhrtermine für deutsche Städte an und erinnert per Benachrichtigung daran. Der Schutz deiner Daten ist uns wichtig. Diese Erklärung beschreibt, welche Daten die App verwendet und wie damit umgegangen wird.</p>
+
   <h2>2. Erhobene Daten</h2>
   <p>Die App erhebt <strong>keine personenbezogenen Daten</strong> und sendet keine Daten an eigene Server.</p>
   <ul>
-    <li><strong>Standortdaten:</strong> Mit deiner Erlaubnis ermittelt die App einmalig deinen Standort zur Adresserkennung. Die Daten verlassen das Geraet nicht.</li>
-    <li><strong>Adresse:</strong> Lokal gespeichert, nicht an Dritte weitergegeben.</li>
-    <li><strong>Abfuhrtermine:</strong> Von stadtplan.dresden.de abgerufen. Keine personenbezogenen Daten werden uebertragen.</li>
-    <li><strong>Benachrichtigungen:</strong> Lokal geplant, kein externer Dienst.</li>
+    <li><strong>Standortdaten:</strong> Mit deiner Erlaubnis ermittelt die App einmalig deinen aktuellen Standort zur automatischen Adresserkennung. Die Standortdaten verlassen das Gerät nicht und werden nicht gespeichert.</li>
+    <li><strong>Adressen und Standorte:</strong> Die von dir eingegebenen Adressen werden ausschließlich lokal auf deinem Gerät gespeichert und nicht an Dritte weitergegeben.</li>
+    <li><strong>Abfuhrtermine:</strong> Die App ruft Abfuhrtermine von den öffentlichen Datenquellen der jeweiligen Stadtverwaltungen ab (siehe Abschnitt 3). Es werden keine personenbezogenen Informationen übertragen.</li>
+    <li><strong>Benachrichtigungen:</strong> Erinnerungen werden lokal auf dem Gerät geplant. Es wird kein externer Benachrichtigungsdienst genutzt.</li>
   </ul>
-  <h2>3. Drittanbieter</h2>
-  <p>Kommunikation ausschliesslich mit Servern der Stadt Dresden (dresden.de, stadtplan.dresden.de). Kein Tracking.</p>
+
+  <h2>3. Drittanbieter-Datenquellen</h2>
+  <p>Die App kommuniziert ausschließlich mit den offiziellen Servern der jeweiligen Stadtverwaltungen, um öffentlich verfügbare Abfuhrdaten abzurufen. Je nach ausgewählter Stadt werden folgende Endpunkte genutzt:</p>
+  <ul>
+    <li>Landeshauptstadt Dresden (stadtplan.dresden.de, dresden.de)</li>
+    <li>Landeshauptstadt München (awm-muenchen.de)</li>
+    <li>Stadt Köln / AWB Köln</li>
+    <li>Landeshauptstadt Stuttgart / AWS Stuttgart</li>
+    <li>Stadt Leipzig / Stadtreinigung Leipzig</li>
+    <li>EVAG / Entsorgungsbetriebe Essen</li>
+    <li>Bremer Stadtreinigung (DBS)</li>
+    <li>Landeshauptstadt Hannover / aha</li>
+    <li>Bergische Abfallwirtschaft Wuppertal</li>
+    <li>Bielefelder Stadtbetriebe (BSR)</li>
+    <li>Karlsruher Mülldeponie / Abfallwirtschaftsbetrieb Karlsruhe</li>
+    <li>MVV Energie / AWM Mannheim</li>
+    <li>ELW Wiesbaden</li>
+    <li>GET Gelsenkirchen</li>
+    <li>Mönchengladbach / mags AöR</li>
+    <li>ASR Chemnitz</li>
+    <li>Abfallwirtschaft Magdeburg</li>
+    <li>SWK Krefeld</li>
+    <li>Hansestadt Lübeck / AWLU</li>
+    <li>Stadtwirtschaft Erfurt</li>
+    <li>Rostock / Stadtentsorgung Rostock</li>
+    <li>Nürnberg / regio iT (nuernberg-abfallapp.regioit.de)</li>
+    <li>Aachen / regio iT (aachen-abfallapp.regioit.de)</li>
+    <li>Oberhausen / GBO</li>
+    <li>Stadt Osnabrück / Abfallwirtschaft Osnabrück</li>
+    <li>Weitere Städte über Drittanbieter-Plattformen: muellmax.de, abfall.io (Abfall+), somacos.de</li>
+  </ul>
+  <p>Es werden keine Analyse-, Werbe- oder Tracking-Dienste eingesetzt.</p>
+
   <h2>4. Berechtigungen</h2>
   <ul>
-    <li><strong>Standort (optional):</strong> Einmalige Adresserkennung, nicht im Hintergrund.</li>
-    <li><strong>Benachrichtigungen (optional):</strong> Lokale Erinnerungen am Vorabend.</li>
-    <li><strong>Hintergrundaktualisierung (optional):</strong> Woechentliches Update der Termine.</li>
+    <li><strong>Standort (optional):</strong> Nur zur einmaligen automatischen Adresserkennung, niemals im Hintergrund.</li>
+    <li><strong>Benachrichtigungen (optional):</strong> Für lokale Erinnerungen am Vorabend und/oder Abholtag.</li>
+    <li><strong>Hintergrundaktualisierung (optional):</strong> Zum wöchentlichen Aktualisieren der Abfuhrtermine.</li>
   </ul>
-  <h2>5. Datenloeschung</h2>
-  <p>Alle lokal gespeicherten Daten werden beim Deinstallieren der App geloescht.</p>
+
+  <h2>5. Datenlöschung</h2>
+  <p>Alle lokal gespeicherten Daten (Adressen, Standorte, geplante Benachrichtigungen) werden vollständig gelöscht, wenn du die App deinstallierst.</p>
+
   <h2>6. Kinder</h2>
-  <p>Die App richtet sich nicht an Kinder unter 13 Jahren.</p>
-  <h2>7. Aenderungen</h2>
-  <p>Bei Aenderungen wird das Datum oben aktualisiert.</p>
+  <p>Die App richtet sich nicht gezielt an Kinder unter 13 Jahren. Es werden keine Daten von Kindern erhoben.</p>
+
+  <h2>7. Änderungen</h2>
+  <p>Bei wesentlichen Änderungen wird das Datum oben auf dieser Seite aktualisiert.</p>
+
   <h2>8. Kontakt</h2>
-  <p>Martin Wanitschke - <a href="mailto:martin.wanitschke@wandelbots.com">martin.wanitschke@wandelbots.com</a></p>
+  <p>Martin Wanitschke &middot; <a href="mailto:martin.wanitschke@wandelbots.com">martin.wanitschke@wandelbots.com</a></p>
+
   <hr class="divider" />
+
   <span class="lang">English</span>
   <h1>Privacy Policy</h1>
-  <p class="updated">Dresdner Abfall App - Last updated: March 2026</p>
+  <p class="updated">Abfall Kalender App &middot; Last updated: March 2026</p>
+
   <h2>1. Overview</h2>
-  <p>This app displays waste collection schedules for the city of Dresden, Germany, and sends local reminders.</p>
+  <p>This app displays waste collection schedules for German cities and sends local reminders. Your privacy matters. This policy describes what data the app uses and how it is handled.</p>
+
   <h2>2. Data Collected</h2>
   <p>This app does <strong>not collect any personal data</strong> and does not send data to any servers we operate.</p>
   <ul>
-    <li><strong>Location data:</strong> With your permission, the app reads your GPS position once for address detection. Never stored or transmitted.</li>
-    <li><strong>Address:</strong> Stored exclusively on your device, never shared.</li>
-    <li><strong>Collection schedules:</strong> Fetched from stadtplan.dresden.de. No personal data transmitted.</li>
-    <li><strong>Notifications:</strong> Scheduled locally. No external service used.</li>
+    <li><strong>Location data:</strong> With your permission, the app reads your GPS position once for automatic address detection. Location data never leaves the device and is not stored.</li>
+    <li><strong>Addresses and locations:</strong> Addresses you enter are stored exclusively on your device and never shared with any third party.</li>
+    <li><strong>Collection schedules:</strong> The app fetches waste collection dates from the official data sources of the respective city authorities (see Section 3). No personal information is transmitted.</li>
+    <li><strong>Notifications:</strong> Reminders are scheduled locally on your device. No external push notification service is used.</li>
   </ul>
-  <h2>3. Third Parties</h2>
-  <p>Only communicates with City of Dresden servers. No analytics or tracking services.</p>
+
+  <h2>3. Third-Party Data Sources</h2>
+  <p>The app communicates exclusively with the official servers of the respective city authorities to retrieve publicly available collection data. Depending on the selected city, the following endpoints are used:</p>
+  <ul>
+    <li>City of Dresden (stadtplan.dresden.de, dresden.de)</li>
+    <li>City of Munich / AWM München</li>
+    <li>City of Cologne / AWB Köln</li>
+    <li>City of Stuttgart / AWS Stuttgart</li>
+    <li>City of Leipzig / Stadtreinigung Leipzig</li>
+    <li>EVAG / Waste Management Essen</li>
+    <li>Bremen Waste Management (DBS)</li>
+    <li>City of Hanover / aha</li>
+    <li>Bergische Abfallwirtschaft Wuppertal</li>
+    <li>Bielefelder Stadtbetriebe (BSR)</li>
+    <li>Karlsruhe Waste Management</li>
+    <li>AWM Mannheim</li>
+    <li>ELW Wiesbaden</li>
+    <li>GET Gelsenkirchen</li>
+    <li>mags AöR Mönchengladbach</li>
+    <li>ASR Chemnitz</li>
+    <li>Waste Management Magdeburg</li>
+    <li>SWK Krefeld</li>
+    <li>AWLU Lübeck</li>
+    <li>Stadtwirtschaft Erfurt</li>
+    <li>Stadtentsorgung Rostock</li>
+    <li>Nuremberg / regio iT (nuernberg-abfallapp.regioit.de)</li>
+    <li>Aachen / regio iT (aachen-abfallapp.regioit.de)</li>
+    <li>GBO Oberhausen</li>
+    <li>Waste Management Osnabrück</li>
+    <li>Additional cities via third-party platforms: muellmax.de, abfall.io (Abfall+), somacos.de</li>
+  </ul>
+  <p>No analytics, advertising, or tracking services are used.</p>
+
   <h2>4. Permissions</h2>
   <ul>
-    <li><strong>Location (optional):</strong> Once only, never in background.</li>
-    <li><strong>Notifications (optional):</strong> Local reminders the evening before pick-up.</li>
-    <li><strong>Background refresh (optional):</strong> Weekly schedule updates.</li>
+    <li><strong>Location (optional):</strong> Used only once for automatic address detection, never in the background.</li>
+    <li><strong>Notifications (optional):</strong> For local reminders the evening before and/or on collection day.</li>
+    <li><strong>Background refresh (optional):</strong> To update collection schedules weekly in the background.</li>
   </ul>
+
   <h2>5. Data Deletion</h2>
-  <p>All locally stored data is deleted when you uninstall the app.</p>
+  <p>All locally stored data (addresses, locations, scheduled notifications) is completely deleted when you uninstall the app.</p>
+
   <h2>6. Children</h2>
-  <p>Not directed at children under 13.</p>
+  <p>This app is not directed at children under the age of 13. We do not knowingly collect data from children.</p>
+
   <h2>7. Changes</h2>
-  <p>Date updated on material changes.</p>
+  <p>If we make material changes, the date at the top of this page will be updated.</p>
+
   <h2>8. Contact</h2>
-  <p>Martin Wanitschke - <a href="mailto:martin.wanitschke@wandelbots.com">martin.wanitschke@wandelbots.com</a></p>
+  <p>Martin Wanitschke &middot; <a href="mailto:martin.wanitschke@wandelbots.com">martin.wanitschke@wandelbots.com</a></p>
 </body>
 </html>
